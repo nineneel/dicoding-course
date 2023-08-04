@@ -78,7 +78,7 @@ const updateNoteHanlerById = (request, h) => {
 
     const index = notes.findIndex((note) => note.id === id);
 
-    if (index !== 1) {
+    if (index !== -1) {
         // notes[index]["title"] = title;
         // notes[index]["tags"] = tags;
         // notes[index]["body"] = body;
